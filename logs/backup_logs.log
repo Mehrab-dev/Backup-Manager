@@ -5,3 +5,8 @@
  2025-10-30 23:54:39,798 - backup.config_logger - CRITICAL - Backup failed! : no such table: backup_data 
  2025-10-31 00:03:51,101 - backup.config_logger - INFO - Folder successfully Backed up as C:\Users\XMART\Desktop\test_back\2025-10-31_00-03-46.zip 
  2025-10-31 00:04:32,011 - backup.config_logger - INFO - Folder successfully Backed up as C:\Users\XMART\Desktop\test_back\2025-10-31_00-04-27.zip 
+ 2025-10-31 00:56:57,378 - backup.config_logger - INFO - Folder successfully Backed up as C:\Users\XMART\Desktop\test_back\2025-10-31_00-56-51.zip 
+ 2025-10-31 01:19:10,069 - backup.config_logger - INFO - Folder successfully Backed up as C:\Users\XMART\Desktop\test_back\2025-10-31--01-19-04.zip 
+ 2025-10-31 01:21:41,175 - backup.config_logger - INFO - Folder successfully Backed up as C:\Users\XMART\Desktop\test_back\2025-10-31--01-21-41.zip 
+ 2025-10-31 01:46:40,118 - backup.config_logger - INFO - Folder successfully Backed up as C:\Users\XMART\Desktop\test_backest_back\2025-10-31--01-46-40.zip 
+ 2025-10-31 01:47:26,214 - backup.config_logger - INFO - Folder successfully Backed up as C:\Users\XMART\Desktop\test_back\2025-10-31--01-47-26.zip 

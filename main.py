@@ -11,4 +11,4 @@ add_backup.add_argument("destination_path",help="destination path for backup")
 args = parser.parse_args()
 
 if args.command == "backup" :
-    Backup(args.origin_path,args.destination_path).backup()
+   print(Backup(args.origin_path,args.destination_path).backup())
