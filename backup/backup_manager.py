@@ -5,6 +5,7 @@ import sqlite3
 import uuid
 
 from .config_logger import logger
+from .db import init_db
 
 class Backup() :
     def __init__(self,origin_path:str,destination_path:str) :
@@ -21,10 +22,12 @@ class Backup() :
                     shutil.make_archive(name,"zip",self.origin_path)
                     logger.info(f"Folder successfully Backed up as {name}.zip")
                     uid = str(uuid.uuid4())
-                    with sqlite3.connect("backup_data.sqlite3") as conn :
+                    db_path = os.path.join(self.destination_path,"backup_data.sqlite3")
+                    init_db(db_path)
+                    with sqlite3.connect(db_path) as conn :
                         cur = conn.cursor()
                         cur.execute(""" INSERT INTO backup_data(id,backup_name,backup_date,backup_type,status) VALUES(?,?,?,?,?) """,
-                                    (uid,name+".zip",now,"Folder",True))
+                                    (uid,name+".zip",now,"Folder","True"))
                         conn.commit()
                     return True
             else :

@@ -1,1 +1,7 @@
-ECHO is on.
+ 2025-10-30 23:48:22,107 - backup.config_logger - INFO - Folder successfully Backed up as C:\Users\XMART\Desktop\test_back\2025-10-30_23-47-31.zip
+ 2025-10-30 23:54:17,255 - backup.config_logger - INFO - Folder successfully Backed up as C:\Users\XMART\Desktop\test_back\2025-10-30_23-54-12.zip 
+ 2025-10-30 23:54:17,260 - backup.config_logger - CRITICAL - Backup failed! : no such table: backup_data 
+ 2025-10-30 23:54:39,797 - backup.config_logger - INFO - Folder successfully Backed up as C:\Users\XMART\Desktop\test_back\2025-10-30_23-54-34.zip 
+ 2025-10-30 23:54:39,798 - backup.config_logger - CRITICAL - Backup failed! : no such table: backup_data 
+ 2025-10-31 00:03:51,101 - backup.config_logger - INFO - Folder successfully Backed up as C:\Users\XMART\Desktop\test_back\2025-10-31_00-03-46.zip 
+ 2025-10-31 00:04:32,011 - backup.config_logger - INFO - Folder successfully Backed up as C:\Users\XMART\Desktop\test_back\2025-10-31_00-04-27.zip 
